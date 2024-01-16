@@ -1,0 +1,27 @@
+{
+  "name": "ntools-vuecli",
+  "version": "1.0.0",
+  "description": "辅助 Vue 项目 - 企业脚手架工具包",
+  "main": "index.js",
+  "bin": {
+    "ntools-vuecli": "index.js",
+    "nvc": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vuecli",
+    "vue",
+    "cli",
+    "node",
+    "ntools"
+  ],
+  "author": "Mosheng-Yan",
+  "license": "ISC",
+  "homepage": "https://github.com/Mosheng-Yan/ntools-vuecli#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mosheng-Yan/ntools-vuecli"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "ntools-vuecli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "辅助 Vue 项目 - 企业脚手架工具包",
   "main": "index.js",
   "bin": {

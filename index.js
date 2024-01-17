@@ -1,4 +1,5 @@
 #!/usr/bin/env node
-import homeOptions from './lib/core/home/index.js'
-
+const homeOptions = require('./lib/core/home/index.js')
+const { createCommands } = require('./lib/core/commands/index.js')
+createCommands()
 homeOptions()

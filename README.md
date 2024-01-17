@@ -10,7 +10,7 @@
 
 - ⚡️ 快速构建企业级 vue 项目
 
-- 🛠️
+- 🛠️ 持续更新工具包
 
 - <img src="./src/img/typescript.png" width="15" style="margin-right: 3;"> 提供完整的 TS 包支持
 

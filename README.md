@@ -27,3 +27,5 @@ npm install -g ntools-vuecli
 - ntools-vuecli 简写 nvc
 
 - pnpm create vue 创建 vue 项目
+
+- nvc add axios 添加由 TS 封装好的 axios 到项目

@@ -39,6 +39,7 @@ npm install -g ntools-vuecli
 - `nvc view homeView` 添加 homeView 模块到项目
   
   如果您对自动生成路由有更高的要求，请使用 [unplugin-vue-router](https://github.com/posva/unplugin-vue-router) 而不是 nvc，unplugin-vue-router 会像 nuxt 一样管理您项目中的路由结构
+  
   **解释：**
   
   `nvc view homeView` 命令会在您项目的 src/views 中新建 homeView 目录
@@ -52,3 +53,5 @@ npm install -g ntools-vuecli
   homeView.meta.ts（homeView 组件自定义子路由信息文件）
   
   homeView.store.ts（homeView 组件状态管理文件）
+  
+  **注意：在首次执行 `nvc view <cpn>` 命令时，nvc 会对您项目的 src/router/index.ts 文件做一部分修改，添加动态导入子路由代码，但不会破坏项目初始化原有代码，建议您不要修改这个文件**

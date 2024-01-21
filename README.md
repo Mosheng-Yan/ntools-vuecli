@@ -6,11 +6,11 @@
 
 ## 介绍
 
-- 💡 不敢想象有多好用，快是唯一目的
+- 💡 辅助 Vue 项目
 
 - 📦 内置 axios
 
-- ⚡️ 快速构建企业级 vue 项目
+- ⚡️ 快速构建企业级 Vue 项目
 
 - 🛠️ 持续更新工具包
 
@@ -28,7 +28,7 @@ npm install -g ntools-vuecli
 
 - ntools-vuecli 简写 nvc
 
-- `pnpm create vue` 创建 vue 项目
+- `pnpm create vue` 创建 Vue 项目
 
   **注意：您需要选择使用 TS 来开发整个项目，因为由 nvc 生成的代码是 TS 代码**
 

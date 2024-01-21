@@ -34,11 +34,13 @@ npm install -g ntools-vuecli
 
   **解释：**
 
-  为了获取最新的项目初始化模板文件，nvc 摒弃了内置项目初始化模板文件，您可以通过 `pnpm create vue` 或者其他方式自由下载项目初始化模板文件，这也是为什么 nvc 被称为辅助 Vue 项目的原因，它只是一个辅助工具包，旨在简化开发中大量的重复的操作
+  为了获取最新的项目初始化模板文件，nvc 摒弃了内置项目初始化模板文件，您可以通过 `pnpm create vue` 或者其他方式自由下载项目初始化模板文件，这也是为什么 nvc 被称为辅助 Vue 项目的原因，它旨在简化开发中大量的重复的操作
 
 - `nvc add axios` 添加由 TS 封装好的 axios 到项目
 
   **注意：需要确保网络通畅，当执行 `nvc add axios` 时，nvc 会在 github 的 [ntools-vuecli-temp](https://github.com/Mosheng-Yan/ntools-vuecli-temp) 的 axios 分支上下载代码到本地**
+
+- `nvc list` 从远程仓库中获取所有可用模块
 
 - `nvc view homeView` 添加 homeView 模块到项目
 
